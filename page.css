@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Moon.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.8rem 1rem;
+}
+
+
+.name-span{
+    color: white;
+    font-size: 1.5rem;
+    float: left;
+    border-bottom: 2px solid white;
+    font-family: 'Sono', sans-serif;
+}
+.open{
+    display: none;
+    color: #fff;
+    font-size: 2.5rem;
+    float: right;
+}
+.close{
+    padding-left: 0.4rem;
+    display: none;
+    color: #fff;
+    font-size: 2.5rem;
+    float: left;
+
+
+}
+nav{
+   text-align: center;
+}
+li{
+    display: inline;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0 1rem;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+button{
+    margin-left: 0;
+}
+nav li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translatex(-50%);
+    background-color: white;
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav li a:hover::after{
+    width: 80%;
+
+}
+.slogans{
+    margin-top: 18rem;
+    margin-left: 2rem;
+    color: white;
+}
+.slogans h1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(img/wave\ \(3\).svg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 100rem 0;
+    }
+}
+
+
+.slogans h5{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+.slogans h4{
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.slogans a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+    margin-right: 1rem;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.btn a span{
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-left: 0.4rem;
+}
+span{
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+}
+.social-icon img{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+    /* margin:0 1rem; */
+}
+.social-icon a{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    padding-left:1rem;
+    line-height: 2rem;
+}
+/**********************--Mid section---******************/
+.mid-section{
+    width: 100%;
+    height: 100vh;
+    background: url(img/Moon\ \(1\).svg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+.section-head{
+    font-size: 3rem;
+    color: rgb(19, 14, 82);
+    text-align: center;
+    padding-top: 1rem;
+
+}
+.section-div1 h3{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(19, 14, 82);
+
+}
+.section-div1 img{
+    height: 36rem;
+    width: 38rem;
+
+}
+.section-div2{
+    margin-top: 10rem;
+    display: block;
+    float: left;
+}
+.section-div2 p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(34, 32, 70);
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.p-span{
+    font-size: 2rem;
+}
+
+/******************---skill-section---******************/
+.skill-section{
+    width: 100%;
+    height: 100vh;
+    background:  url(img/Moon\ \(3\).svg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+.skill-div h3{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(19, 14, 82);
+}
+.skill-div{
+    margin-top: 8rem;
+    margin-left: 10rem;
+    display: block;
+    float: left;
+}
+.progress-bar{
+    width: 50rem;
+    background-color: gray;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    
+}
+.skill{
+    text-align: right;
+    padding: 0.5rem 0;
+    color:rgb(19, 14, 82);
+}
+.skill-div p{
+    font-size: 1.2rem;
+    color: rgb(19, 14, 82);
+    font-weight: 700;
+}
+.html{
+    width: 35rem;
+    background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
+    border-radius: 1rem;
+             
+}
+.css{
+    width: 30rem;
+    background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
+    border-radius: 1rem;
+
+}
+.js{
+    width: 25rem;
+    background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
+    border-radius: 1rem;
+}
+.tech-para{
+    float: right;
+    margin-top: 15rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    color: rgb(19, 14, 82);
+}
+ .i-style,.tech-para  span{
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+.slide-left{
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    
+
+}
+
+/*******************project-section***********/
+
+.project-section{
+    width: 100%;
+    height: 100vh;
+    background: url(img/Moon\ \(4\).svg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+.pro-head{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(19, 14, 82);
+}
+.pro-card{
+    margin-top: 0;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+}
+.card{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border:none;
+    border-radius: 1rem;
+    height: 60%;
+    width: 20%;
+    margin: 0 4rem;
+    padding: 1rem;
+    color: rgb(4, 4, 4);
+    top:0;
+    box-shadow: 2px 4px 5px 4px rgb(109, 109, 112);
+}
+.card:nth-child(1){
+    background-image: linear-gradient(90deg, rgba(19, 14, 82, 0.537),rgba(62, 11, 54, 0.568)), url(img/tea.jpg);
+}
+.card:nth-child(2){
+    background-image: linear-gradient(90deg, rgba(19, 14, 82, 0.537),rgba(62, 11, 54, 0.568)), url(img/image5T.jpg);
+}
+.card:nth-child(3){
+    background-image: linear-gradient(90deg, rgba(19, 14, 82, 0.537),rgba(62, 11, 54, 0.568)), url(img/denis.jpg);
+}
+
+
+.card-title{
+    font-size: 2rem;
+}
+.card p{
+    margin-top:4rem;
+    font-size: 1.2rem;
+}
+.card:nth-child(3) p{
+    margin-top: 3rem;
+}
+.card button{
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    border: none;
+    color: rgb(227, 227, 227);
+    background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
+}
+.slide{
+    opacity:0 ;
+    color: #fff;
+}
+.slide::after{
+  opacity: 0;
+  color: #fff;
+}
+.slide:hover{
+    animation: slideleft 0.5s ease-in;
+    opacity: 1;
+    
+}
+
+@keyframes slideleft {
+    0%{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+
+    }
+}
+.pro-guide{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(19, 14, 82);
+    overflow-y: hidden;
+}
+.pro-guide p{
+    top: 4px;
+    padding-bottom: 1rem;
+    font-weight: 600;
+
+}
+
+/**************contact section***********/
+.contact-section{
+    margin-top: 2rem;
+    height: 60vh;
+    width: 100%;
+   background-image: url(img/Moon\ \(5\).svg);
+    font-family: "Montserrat", sans-serif; 
+}
+.contact-head{
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+}
+.contact-form{
+    display: block;
+    float: right;
+    margin-right: 2rem;
+    color: rgb(255, 255, 255);;
+    margin-top: 1rem;
+}
+.contact-form input{
+    margin: 1rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0.8rem;
+    
+}
+.form-text{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    
+}
+.social-icon{
+    
+    color: #fff;
+}
+.social-icon h4{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.social-icon img{
+    margin: 1rem;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+.social-icon img:hover{
+    background-color: rgb(19, 14, 82);
+}
+.msg{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+.msg h5{
+    margin-top: 5px;
+    font-size: 1rem;
+}
+.send{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    margin-top: 0.6rem;
+    background: transparent;
+    color: #fff;
+    border: 2px solid white;
+    box-shadow: 2px 4px 5px 4px rgb(109, 109, 112);
+}
+.send:hover{
+    background-color:  rgb(19, 14, 82);
+    box-shadow: none;
+    cursor: pointer;
+}
+/*******copy right*******/
+
+.copyright{
+    height: 3rem;
+    text-align: center;
+    width: 100%;
+    background: #141e30;
+    background: linear-gradient(to right, #243B55, #141E30);
+    color: #fff;
+
+}
+.copyright span{
+    padding: 1rem;
+}
+
+ /*****************media query****************/
+
+ @media screen and (max-width: 600px){
+      .container{
+        background: #41295a;
+        background: linear-gradient(to right, #2F0743, #41295a);  
+
+        }
+        .nav-bar{
+            /* text-align: center; */
+            background: #41295a;
+            background: linear-gradient(to right, #2F0743, #41295a);     
+            position: absolute;
+            height: 22vh;
+            width: 12rem;
+            top: 0;
+            border-bottom-left-radius: 1rem;
+            right: -12rem;
+            font-size: 1rem;
+            z-index: 2;
+            transition: .8s;
+        }
+        .nav-link{
+            text-align: right;
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            padding: .4rem;
+        }
+        .hamburger{
+            display: block;
+        }
+        nav li a::after{
+            display: none;
+        }
+    
+ 
+       
+
+        /*************skill section**********/
+
+        .skill-section .section-head{
+            margin-top: -12rem;
+        }
+       
+        .skill-div{
+            margin-top: 24rem;
+            margin-left: 4rem;
+        }
+       .progress-bar{
+            width: 100%;
+        }
+   
+       .progress-bar .html{
+        width: 74%;
+       }
+       .progress-bar .css{
+        width: 61%;
+       }
+       .progress-bar .js{
+        width: 58%;
+       }
+        .slogans h1{
+            font-size: 3rem;
+        }
+        .slogans h4{
+            font-size: 1.5rem;
+        }
+        .slogans{
+            margin-top: 8rem;
+        }
+        .btn a{
+            margin: 0.5rem 0;
+        }
+        .section-div2{
+            margin-top: 2rem;
+        }
+        
+        .section-div1 img{
+            margin-top: 4rem;
+            margin-left: 2rem;
+            width: 80%;
+            height: 24rem;
+            box-sizing: border-box;
+        }
+        .tech-para{
+            margin-top: 1rem;
+            margin-left: 4rem;
+        }
+
+        /***************project section**********/
+
+        .pro-head{
+            margin-top: 12rem;
+        }
+        .pro-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 40%;
+            width: auto;
+            margin-top: 2rem;
+        }
+        .card{
+            width: 80%;
+            margin: 1rem 0;
+        }
+        .slide{
+            opacity: 1;
+        }
+        .card-title{
+            font-size: 1rem;
+        }
+        .card p{
+            margin-top:2rem;
+            font-size: .8rem;
+        }
+        .card button{
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+        .card:nth-child(3) p{
+            margin-top: 1rem;
+        }
+        .pro-guide{
+            margin-top: 21rem;
+            font-size: 1rem;
+        }
+        .pro-guide p{
+            padding: 0;
+        }
+
+        /*********** contact section**********/
+
+        .contact-section{
+            display: flex;
+            flex-direction: column;
+            margin-top: 4rem;
+            height: max-content;
+            box-sizing: border-box;
+        }
+        .contact-head p{
+            padding: 0.4rem;
+        }
+        .contact-form{
+            margin-left: 2rem;
+        }
+        .contact-form textarea{
+            width: 80%;
+        }
+        .social-icon{
+            margin-top: 0.8rem;
+        }
+        .msg h5{
+            padding: 1rem 0;
+        }
+ }
+    
