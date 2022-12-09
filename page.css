@@ -454,6 +454,9 @@ span{
         background: linear-gradient(to right, #2F0743, #41295a);  
 
         }
+        body{
+            
+        }
         .nav-bar{
             /* text-align: center; */
             background: #41295a;
@@ -465,8 +468,9 @@ span{
             border-bottom-left-radius: 1rem;
             right: -12rem;
             font-size: 1rem;
-            z-index: 2;
+            z-index: 3;
             transition: .8s;
+            overflow: hidden;
         }
         .nav-link{
             text-align: right;
