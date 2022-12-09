@@ -207,7 +207,7 @@ span{
     float: left;
 }
 .progress-bar{
-    width: 50rem;
+    width: 50vw;
     background-color: gray;
     border-radius: 1rem;
     margin: 1rem 0;
@@ -224,19 +224,19 @@ span{
     font-weight: 700;
 }
 .html{
-    width: 35rem;
+    width: 70%;
     background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
     border-radius: 1rem;
              
 }
 .css{
-    width: 30rem;
+    width: 65%;
     background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
     border-radius: 1rem;
 
 }
 .js{
-    width: 25rem;
+    width: 55%;
     background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(40,47,162,0.7516048655790442) 68%);
     border-radius: 1rem;
 }
@@ -365,7 +365,7 @@ span{
 /**************contact section***********/
 .contact-section{
     margin-top: 2rem;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
    background-image: url(img/Moon\ \(5\).svg);
     font-family: "Montserrat", sans-serif; 
