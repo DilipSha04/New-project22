@@ -79,7 +79,7 @@ nav li a:hover::after{
     color: white;
 }
 .slogans h1{
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
@@ -97,11 +97,11 @@ nav li a:hover::after{
 
 
 .slogans h5{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
 }
 .slogans h4{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Montserrat", sans-serif;
 }
 .btn{
@@ -116,18 +116,18 @@ nav li a:hover::after{
     padding: 0.8rem;
     margin-right: 1rem;
     border: 2px solid white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     font-family: "Montserrat", sans-serif;
 }
 .btn a span{
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1rem;
     margin-left: 0.4rem;
 }
 span{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: "Montserrat", sans-serif;
 }
 .social-icon img{
@@ -153,14 +153,14 @@ span{
     font-family: "Montserrat", sans-serif;
 }
 .section-head{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(19, 14, 82);
     text-align: center;
     padding-top: 1rem;
 
 }
 .section-div1 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: rgb(19, 14, 82);
 
@@ -177,13 +177,13 @@ span{
 }
 .section-div2 p{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: rgb(34, 32, 70);
     margin-left: 1rem;
     font-family: 'Poppins', sans-serif;
 }
 .p-span{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /******************---skill-section---******************/
@@ -196,7 +196,7 @@ span{
     font-family: "Montserrat", sans-serif;
 }
 .skill-div h3{
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     text-align: center;
     color: rgb(19, 14, 82);
 }
@@ -248,7 +248,7 @@ span{
     color: rgb(19, 14, 82);
 }
  .i-style,.tech-para  span{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Abril Fatface', cursive;
 }
 .slide-left{
@@ -269,7 +269,7 @@ span{
     font-family: "Montserrat", sans-serif;
 }
 .pro-head{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     color: rgb(19, 14, 82);
 }
@@ -305,19 +305,19 @@ span{
 
 
 .card-title{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .card p{
-    margin-top:4rem;
+    margin-top:2rem;
     font-size: 1.2rem;
 }
 .card:nth-child(3) p{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 .card button{
     cursor: pointer;
-    margin-top: 5rem;
-    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
     padding: 0.6rem;
     border-radius: 0.8rem;
     border: none;
@@ -351,7 +351,7 @@ span{
 }
 .pro-guide{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(19, 14, 82);
     overflow-y: hidden;
 }
@@ -425,7 +425,7 @@ span{
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 1rem;
     margin-top: 0.6rem;
     background: transparent;
