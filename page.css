@@ -450,27 +450,29 @@ span{
 
  @media screen and (max-width: 600px){
       .container{
-        background: #41295a;
-        background: linear-gradient(to right, #2F0743, #41295a);  
+        /* background: #41295a;
+        background: linear-gradient(to right, #2F0743, #41295a); */
+        background-image: url(img/Moon.svg);
+        background-position: center;
+        background-size: cover;
 
         }
-        body{
-            
-        }
         .nav-bar{
-            /* text-align: center; */
+            /* text-align: right; */
             background: #41295a;
-            background: linear-gradient(to right, #2F0743, #41295a);     
-            position: absolute;
+            background-image: url(img/Moon.svg);
+            background-position: center;
+            background-size: cover;  
+            position:absolute;
             height: 22vh;
-            width: 12rem;
+            width: 100%;
             top: 0;
             border-bottom-left-radius: 1rem;
-            right: -12rem;
+            top:-12rem;
             font-size: 1rem;
-            z-index: 3;
+            z-index: 2;
             transition: .8s;
-            overflow: hidden;
+            
         }
         .nav-link{
             text-align: right;
@@ -482,10 +484,9 @@ span{
         }
         .hamburger{
             display: block;
+            position: relative;
         }
-        nav li a::after{
-            display: none;
-        }
+   
     
  
        

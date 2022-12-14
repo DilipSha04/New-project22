@@ -2,9 +2,9 @@
 var navBar = document.getElementById("navBar");
 
 function showMenu(){
-    navBar.style.right = "0";
+    navBar.style.top = "0";
 }
 
 function hideMenu(){
-    navBar.style.right = "-20rem";
+    navBar.style.top = "-12rem";
 }
