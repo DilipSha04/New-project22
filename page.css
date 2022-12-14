@@ -22,6 +22,7 @@ body{
     font-size: 2.5rem;
     float: right;
 }
+
 .close{
     padding-left: 0.4rem;
     display: none;
@@ -169,7 +170,7 @@ span{
     text-align: center;
     font-size: 1.1rem;
     color: rgb(34, 32, 70);
-    margin-left: 1rem;
+    padding: 0 .5rem;
     font-family: 'Poppins', sans-serif;
 }
 .p-span{
@@ -483,6 +484,7 @@ span{
             flex-direction: column;
             padding: .4rem;
         }
+      
         .hamburger{
             display: block;
             position: relative;
