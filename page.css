@@ -455,6 +455,7 @@ span{
         background-image: url(img/Moon.svg);
         background-position: center;
         background-size: cover;
+        background-clip: border-box;
 
         }
         .nav-bar{
