@@ -444,7 +444,8 @@ span{
 
 }
 .copyright span{
-    padding: 1rem;
+    position: relative;
+    top: 1rem;
 }
 
  /*****************media query****************/
@@ -494,7 +495,7 @@ span{
  
        
 
-        /*************skill section**********/
+        /*************skill section media query**********/
 
         .skill-section .section-head{
             margin-top: 2rem;
@@ -545,7 +546,7 @@ span{
             margin-left: 4rem;
         }
 
-        /***************project section**********/
+        /***************project section media query**********/
 
         .pro-head{
             margin-top: 2rem;
@@ -587,7 +588,7 @@ span{
             padding: 0;
         }
 
-        /*********** contact section**********/
+        /*********** contact section media query**********/
 
         .contact-section{
             display: flex;
