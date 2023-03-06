@@ -595,12 +595,7 @@ span{
             opacity:1;
             color: #fff;
         }
-        .slide::after{
-            display: none;
-        }
-        .slide:hover{
-            display: none;
-        }
+      
 
         /*********** contact section media query**********/
 
