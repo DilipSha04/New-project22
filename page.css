@@ -594,6 +594,9 @@ span{
         .slide:hover{
             display: none;
         }
+        .slide::after{
+            display: none;
+        }
 
         /*********** contact section media query**********/
 
