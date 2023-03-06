@@ -591,6 +591,9 @@ span{
         .pro-guide p{
             padding: 0;
         }
+        .slide:hover{
+            display: none;
+        }
 
         /*********** contact section media query**********/
 
