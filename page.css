@@ -491,6 +491,9 @@ span{
             display: block;
             position: relative;
         }
+        .nav li a::after{
+            display: none;
+        }
    
     
  
