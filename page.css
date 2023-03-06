@@ -591,6 +591,10 @@ span{
         .pro-guide p{
             padding: 0;
         }
+        .slide{
+            opacity:1;
+            color: #fff;
+        }
         .slide::after{
             display: none;
         }
