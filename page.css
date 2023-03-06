@@ -591,10 +591,10 @@ span{
         .pro-guide p{
             padding: 0;
         }
-        .slide:hover{
+        .slide::after{
             display: none;
         }
-        .slide::after{
+        .slide:hover{
             display: none;
         }
 
